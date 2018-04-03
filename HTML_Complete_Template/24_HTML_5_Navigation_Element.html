@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTml nav elements</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+    body{
+    	margin: 0;
+    }
+    	ul{
+    		list-style: none;
+    		padding: 0;
+    		margin: 0;
+
+    	}
+    	nav{
+    		background-color: black;
+    		overflow: hidden;
+    	}
+    	ul li{
+    		float: left;/*over flown the back ground color*/
+    	}
+    	li a{
+        text-decoration:none;
+        color: white;
+         font-size: 25px;
+         padding: 14px 25px;
+         display: inline-block;/*mandatory*/
+    	}
+    	li a:hover{
+    		background-color: seagreen;
+    		border-radius: 7px;
+    	}
+    	li a.active{
+    		background-color: green;
+    		border-radius: 7px;
+    	}
+    </style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="active">Home</a>
+				<i class>"fa fa-home"</i>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">contact</a>
+			</li>
+			<li>
+				<a href="#">Carees</a>
+			</li>
+			<li>
+				<a href="#">Forum</a>
+			</li>
+		</ul>
+	</nav>
+
+</body>
+</html>
